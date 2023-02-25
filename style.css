@@ -1,0 +1,10 @@
+body {
+    font-family: var(--primary-font);
+    background-color: var(--secondary-color);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 5% 40% repeat(2, 22%) 3%;
+    gap: 3rem;
+}
